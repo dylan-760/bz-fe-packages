@@ -1,0 +1,47 @@
+dist
+.wrangler
+.output
+.vercel
+.netlify
+.vinxi
+.mobile
+.pc
+app.config.timestamp_*.js
+# api-doc.json
+api-doc.opid-map.json
+**/*/api-doc.opid-map.json
+
+# Environment
+# .env.local
+
+# dependencies
+/node_modules
+node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.kiro
+*.launch
+.settings/
+.codegraph
+theme-export.json
+sst-env.d.ts
+**/sst-env.d.ts
+# Temp
+gitignore
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# sst
+.sst
+
+# 忽略 auto-imports.d.ts
+**/auto-imports.d.ts
+
+.github/**
+skills
+.codex-skill-staging/**

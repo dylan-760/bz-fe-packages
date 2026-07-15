@@ -1,0 +1,16 @@
+{
+  "name": "bz-fe-packages",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "registry:start": "bunx verdaccio --config infra/verdaccio/config.yaml",
+    "registry:ping": "npm ping --registry http://127.0.0.1:4873",
+    "registry:login": "npm adduser --registry http://127.0.0.1:4873"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
