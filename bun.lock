@@ -17,9 +17,47 @@
         "typescript": "^5.1.0",
       },
     },
+    "packages/sportIcons": {
+      "name": "@bz/sport-icons",
+      "version": "0.1.0-next.1",
+      "devDependencies": {
+        "solid-js": "^1.9.5",
+        "typescript": "^5.1.0",
+      },
+      "peerDependencies": {
+        "solid-js": "^1.9.0",
+      },
+    },
+    "packages/system-assets": {
+      "name": "@bz/system-assets",
+      "version": "0.1.0-next.1",
+      "devDependencies": {
+        "solid-js": "^1.9.5",
+        "typescript": "^5.1.0",
+      },
+      "peerDependencies": {
+        "solid-js": "^1.9.0",
+      },
+    },
+    "packages/tracker": {
+      "name": "@bz/tracker",
+      "version": "0.1.0-next.1",
+      "dependencies": {
+        "sa-sdk-javascript": "1.27.11",
+      },
+      "devDependencies": {
+        "typescript": "^5.1.0",
+      },
+    },
   },
   "packages": {
     "@bz/sentry": ["@bz/sentry@workspace:packages/sentry"],
+
+    "@bz/sport-icons": ["@bz/sport-icons@workspace:packages/sportIcons"],
+
+    "@bz/system-assets": ["@bz/system-assets@workspace:packages/system-assets"],
+
+    "@bz/tracker": ["@bz/tracker@workspace:packages/tracker"],
 
     "@sentry-internal/feedback": ["@sentry-internal/feedback@7.120.4", "https://registry.npmmirror.com/@sentry-internal/feedback/-/feedback-7.120.4.tgz", { "dependencies": { "@sentry/core": "7.120.4", "@sentry/types": "7.120.4", "@sentry/utils": "7.120.4" } }, "sha512-eSwgvTdrh03zYYaI6UVOjI9p4VmKg6+c2+CBQfRZX++6wwnCVsNv7XF7WUIpVGBAkJ0N2oapjQmCzJKGKBRWQg=="],
 
@@ -60,6 +98,8 @@
     "lie": ["lie@3.1.1", "https://registry.npmmirror.com/lie/-/lie-3.1.1.tgz", { "dependencies": { "immediate": "~3.0.5" } }, "sha512-RiNhHysUjhrDQntfYSfY4MU24coXXdEOgw9WGcKHNeEwffDYbF//u87M1EWaMGzuFoSbqW0C9C6lEEhDOAswfw=="],
 
     "localforage": ["localforage@1.10.0", "https://registry.npmmirror.com/localforage/-/localforage-1.10.0.tgz", { "dependencies": { "lie": "3.1.1" } }, "sha512-14/H1aX7hzBBmmh7sGPd+AOMkkIrHM3Z1PAyGgZigA1H1p5O5ANnMyWzvpAETtG68/dC4pC0ncy3+PPGzXZHPg=="],
+
+    "sa-sdk-javascript": ["sa-sdk-javascript@1.27.11", "https://registry.npmmirror.com/sa-sdk-javascript/-/sa-sdk-javascript-1.27.11.tgz", {}, "sha512-HSQtUA34znKwAg/b2MXF3+l7DTH4ZcczpJFusjdhvQ1ZnBL41qbFcdpLvoThJdMoOJqIqiu0yGmPps68YfZlcQ=="],
 
     "seroval": ["seroval@1.5.5", "https://registry.npmmirror.com/seroval/-/seroval-1.5.5.tgz", {}, "sha512-bSjOuPcwPKLSJNhr9+bZxA20nQxVle5J5MNsYRVE6cIg7KpRLXGupymePavu0jrxlPiPsr4xGZSB8yUY2sH2sw=="],
 
